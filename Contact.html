@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lan="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact me </title>
+
+        <style>
+
+        body {
+            
+            background-image: url('Asasas.jpg')
+        }
+    </style>
+    
+
+        <style>
+body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      width: 350px;
+    }
+
+input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+</style>
+    </head>
+
+    <body>
+<form action="submit.html" method="post">
+    <h2 style="text-align:center;">Contact Ashok</h2>
+
+    <label for="first name"><b>First Name:</label></b>
+    <input type="text" id="firs name" name="first name" placeholder="Your First Name" required>
+
+     <label for="name"><b>Last Name:</label></b>
+    <input type="text" id="last name" name="last name" placeholder="Your Last Name" required>
+
+    <label for="email"><b>Email:</label></b>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+    <label for="message"><b>Message:</label></b>
+    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <input type="submit" value="Send Message">
+    <P style="text-align: center;"><a href="Portfolio.HTML">Back to Home</P></a> 
+  </form>
+  
+
+
+    </body>
+</html>
